@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: ingredients
+#
+#  id              :integer          not null, primary key
+#  amount_number   :float
+#  amount_type     :integer
+#  ingredient_name :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  recipe_id       :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  amount_number: 1
+  amount_type: 1
+  recipe_id: 1
+
+two:
+  name: MyString
+  amount_number: 1
+  amount_type: 1
+  recipe_id: 1
